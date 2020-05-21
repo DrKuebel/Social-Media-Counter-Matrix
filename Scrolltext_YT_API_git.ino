@@ -7,8 +7,9 @@
 #include <ESP8266WebServer.h>     //Local WebServer used to serve the configuration portal
 #include <WiFiManager.h>  
 #include <YoutubeApi.h>            // https://github.com/witnessmenow/arduino-youtube-api
+                                   // use at least Version 2.0
 #include "InstagramStats.h" 
-#include "ArduinoJson.h"           // https://github.com/bblanchon/ArduinoJson Use Version 5! v6 is not supported
+#include "ArduinoJson.h"           // https://github.com/bblanchon/ArduinoJson Use Version v6! v5  is not longer supported
 
 #include <Adafruit_GFX.h>          //  https://github.com/adafruit/Adafruit-GFX-Library
 #include <Adafruit_NeoMatrix.h>    //  https://github.com/adafruit/Adafruit_NeoMatrix
